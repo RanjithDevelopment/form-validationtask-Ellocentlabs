@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+h1{
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background:rgb(10, 239, 235) ;
+  color: #222;
+  border:1px solid #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn-light{
+background: transparent;
+color: #fff;
+
+}
+.btn:hover {
+  background:red ;
+  color:white;
+  transition:0.3s;
+}
+form input,form select{
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+    padding: 10px 18px;
+    font-size: 1.2rem;
+   border-color: aquamarine;
+}
+
+form button {
+    height: fit-content;
+    width:fit-content;
+}
+label{
+    color: black;
+ margin-bottom: 0.5rem;
+}
+form {
+    display: flex;
+    flex-direction:column;
+    padding: 4rem 1rem;
+    margin: auto;
+    max-width: 600px;
+}
+
+
+form button{
+    height: fit-content;
+}
+.from{
+  margin-top: 50%;
+}

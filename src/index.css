@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.btn{
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background:rgb(10, 239, 235) ;
+  color: #222;
+  border:1px solid #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn-light{
+background: transparent;
+color: #fff;
+
+}
+.btn:hover {
+  background:red ;
+  color:white;
+  transition:0.3s;
+}
